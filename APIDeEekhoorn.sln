@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDeEekhoorn", "APIDeEekho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDeEekhoorn.Tests", "APIDeEekhoorn.Tests\APIDeEekhoorn.Tests.csproj", "{613727D2-E2F3-4B99-B0D0-49672184EB4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDeEekhoorn.Logic", "APIDeEekhoorn.Logic\APIDeEekhoorn.Logic.csproj", "{F7AFEFFD-1DF0-443A-8134-B80CADB42086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDeEekhoorn.Modules", "APIDeEekhoorn.Modules\APIDeEekhoorn.Modules.csproj", "{BD56370F-1366-4075-80EB-8E7F1CCAB84B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{613727D2-E2F3-4B99-B0D0-49672184EB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{613727D2-E2F3-4B99-B0D0-49672184EB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{613727D2-E2F3-4B99-B0D0-49672184EB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AFEFFD-1DF0-443A-8134-B80CADB42086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AFEFFD-1DF0-443A-8134-B80CADB42086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AFEFFD-1DF0-443A-8134-B80CADB42086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AFEFFD-1DF0-443A-8134-B80CADB42086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD56370F-1366-4075-80EB-8E7F1CCAB84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD56370F-1366-4075-80EB-8E7F1CCAB84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD56370F-1366-4075-80EB-8E7F1CCAB84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD56370F-1366-4075-80EB-8E7F1CCAB84B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
