@@ -23,8 +23,8 @@ define({ "api": [
     "url": "",
     "version": "0.0.0",
     "filename": "./doc/main.js",
-    "group": "C__Users_raymond_source_repos_APIDeEekhoorn_APIDeEekhoorn_doc_main_js",
-    "groupTitle": "C__Users_raymond_source_repos_APIDeEekhoorn_APIDeEekhoorn_doc_main_js",
+    "group": "C__Users_raymond_Documents_Visual_Studio_2017_Projects_APIDeEekhoorn_APIDeEekhoorn_doc_main_js",
+    "groupTitle": "C__Users_raymond_Documents_Visual_Studio_2017_Projects_APIDeEekhoorn_APIDeEekhoorn_doc_main_js",
     "name": ""
   },
   {
@@ -92,6 +92,13 @@ define({ "api": [
             "optional": false,
             "field": "NotAuthorized",
             "description": "<p>The user is not authorized.</p>"
+          },
+          {
+            "group": "Error 4xx",
+            "type": "404",
+            "optional": false,
+            "field": "NotFound",
+            "description": "<p>There are no records for this debtor.</p>"
           }
         ]
       }

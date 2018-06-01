@@ -119,6 +119,7 @@ namespace APIDeEekhoorn.Controllers
          *      }
          * 
          * @apiError (Error 4xx) {401} NotAuthorized The user is not authorized.
+         * @apiError (Error 4xx) {404} NotFound There are no records for this debtor.
          * 
          */
         [Authorize]
@@ -148,6 +149,12 @@ namespace APIDeEekhoorn.Controllers
             var quantityMonth = _dashboardRepository.QuantityPerMonthListByDebcode(debcode);
             var quantityQuarter = _dashboardRepository.QuantityPerQuarterListByDebcode(debcode);
             var quantityYear = _dashboardRepository.QuantityPerYearListByDebcode(debcode);
+
+            if (salesMonth.Count() == 0 || salesQuarter.Count() == 0 || salesYear.Count() == 0
+                || quantityMonth.Count() == 0 || quantityQuarter.Count() == 0 || quantityYear.Count() == 0)
+            {
+                return NotFound();
+            }
 
             var dashboardModel = new Dashboard();
 
